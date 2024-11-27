@@ -1,0 +1,19 @@
+<section>
+    <h1 style="display: contents;">Skills</h1>
+    <div class="skills-list">
+
+      @for (skill of skills; track skills) 
+      {
+        <ul>
+        <li>
+          {{skill}}
+        </li>
+        </ul>
+      }
+    
+      <!-- <div *ngFor="let skill of skills" class="skill">
+        {{ skill }}
+      </div> -->
+    </div>
+  </section>
+  
